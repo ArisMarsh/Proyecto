@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(95, 247, 140, 0.863);
+    color: rgb(98, 72, 100);
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+#container{
+    width: 60%;
+    background: #68a985;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 50px;
+}
+
+header{
+    text-align: center;
+    border-bottom: rgb(98, 72, 100) dashed 1px;
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+header p{
+    padding: 0;
+    margin-top: 5px;
+    color: #0000007d;
+}
+
+h3{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+section{
+    min-height: 410px;
+}
+
+input[type='submit']{
+    background: rgba(210, 30, 204, 0.516);
+    border: 0;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#resultado h3{
+    background: forestgreen;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#resultado span{
+    color: #000;
+    font-weight: bold;
+}
